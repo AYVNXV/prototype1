@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+  <defs>
+    <linearGradient id="ground" x2="0" y2="1"><stop stop-color="#eee5d6"/><stop offset="1" stop-color="#d7c8b2"/></linearGradient>
+    <linearGradient id="cloth" x2="1" y2="1"><stop stop-color="#b99c74"/><stop offset=".55" stop-color="#a68a67"/><stop offset="1" stop-color="#806b53"/></linearGradient>
+    <pattern id="khaddar" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M0 7h48M0 22h48M0 39h48" stroke="#544b3c" stroke-opacity=".25" stroke-width="2"/>
+      <path d="M8 0v48M26 0v48M41 0v48" stroke="#f3e4c9" stroke-opacity=".35" stroke-width="2"/>
+      <path d="M0 31h48M17 0v48" stroke="#704f3d" stroke-opacity=".18" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="25" stdDeviation="24" flood-color="#493a2a" flood-opacity=".22"/></filter>
+  </defs>
+  <path fill="url(#ground)" d="M0 0h900v1100H0z"/>
+  <path fill="#a18768" opacity=".15" d="M0 860 900 590v510H0z"/>
+  <g filter="url(#shadow)" transform="rotate(5 450 550)">
+    <path fill="#7d674f" d="M132 132h620v826H132z"/>
+    <path fill="url(#cloth)" d="M108 106h620v826H108z"/>
+    <path fill="url(#khaddar)" d="M137 136h562v766H137z"/>
+    <path fill="none" stroke="#e1cfad" stroke-width="2" d="M157 156h522v726H157z"/>
+    <path fill="#fff4df" opacity=".18" d="M108 106h75L214 932h-74z"/>
+  </g>
+</svg>

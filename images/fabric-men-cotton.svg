@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+  <defs>
+    <linearGradient id="ground" x2="0" y2="1"><stop stop-color="#e9e5da"/><stop offset="1" stop-color="#d0c9ba"/></linearGradient>
+    <linearGradient id="cloth" x2="1" y2="1"><stop stop-color="#f9f6ed"/><stop offset=".6" stop-color="#e4e0d4"/><stop offset="1" stop-color="#c8c8bd"/></linearGradient>
+    <pattern id="weave" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M0 9h38M0 28h38M9 0v38M28 0v38" fill="none" stroke="#758078" stroke-opacity=".25" stroke-width="1"/>
+      <path d="M0 18h38M18 0v38" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="25" stdDeviation="24" flood-color="#28332c" flood-opacity=".2"/></filter>
+  </defs>
+  <path fill="url(#ground)" d="M0 0h900v1100H0z"/>
+  <path fill="#8c9887" opacity=".16" d="M0 850 900 600v500H0z"/>
+  <g filter="url(#shadow)" transform="rotate(3 450 550)">
+    <path fill="#b4b4a7" d="M132 132h620v826H132z"/>
+    <path fill="url(#cloth)" d="M108 106h620v826H108z"/>
+    <path fill="url(#weave)" d="M137 136h562v766H137z"/>
+    <path fill="none" stroke="#737e73" stroke-width="2" d="M157 156h522v726H157z"/>
+    <path fill="#fff" opacity=".4" d="M108 106h75L214 932h-74z"/>
+    <path fill="#526057" opacity=".07" d="m678 136 50-30v826h-50z"/>
+  </g>
+</svg>
